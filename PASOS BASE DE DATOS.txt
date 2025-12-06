@@ -1,0 +1,28 @@
+PASOS BASE DE DATOS
+1. Primero debes descargar MySQL Server desde la página oficial de MySQL.
+Cuando lo tengas descargado, ejecutas el instalador y sigues todos los pasos con la configuración por defecto.
+Durante la instalación se te pedirá crear un usuario y una contraseña. Es importante que los recuerdes, ya que los vas a necesitar después. Normalmente el usuario que se usa es root.
+
+2. Después debes descargar MySQL Workbench desde la web oficial de MySQL.
+Cuando lo instales, abres el programa y creas una nueva conexión al servidor local 
+
+
+3. Dentro de MySQL Workbench abres el archivo del modelo desde la opción:
+
+File → Open Model
+
+Cuando ya tengas abierto el diagrama, exportas el script SQL 
+
+Guardas ese archivo en la ubicación que quieras.
+
+4. En el panel izquierdo, dentro de Schemas, haces clic derecho y seleccionas Create Schema.
+Le pones el nombre: StrangerThings
+
+Guardas los cambios y haces click derecho sobre el schema y seleccionas, Set as default schema
+
+5. Ahora abres el archivo SQL de antes
+
+Con el schema StrangerThings seleccionado, ejecutas todo el script pulsando el rayo.
+
+Cuando el script termina de ejecutarse, la base de datos StrangerThings queda creada con todas sus tablas y relaciones.
+A partir de aquí ya puedes empezar a insertar los datos y hacer las consultas del proyecto.
