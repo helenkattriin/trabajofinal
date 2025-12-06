@@ -1,0 +1,2763 @@
+/* --------------------- BLOQUE INICIAL --------------------- */
+.inicial .dropdown{
+    background-color: blue;
+    justify-self: center;
+    border-radius: 15px;
+}
+
+body.inicial{
+    background-color: black;
+    position: relative;
+    height: 100%;
+}
+.inicial .header__top{
+   display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: red;
+}
+.inicial .headerTop{
+    color:black;
+    align-self: center;
+    font: 2em sans-serif;
+}
+
+.inicial .header__logo{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.inicial .header__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+}
+.inicial .contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 527px;
+    justify-content: center;
+    justify-self: center;
+    height: 500px;
+    width: 500px;
+    min-height: 100vh;
+    position: absolute;
+}
+.inicial .title{
+    display: grid;
+    color: whitesmoke;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    justify-self: center;
+    grid-column: 2;
+}
+.inicial .contenedor1{
+    display: grid;
+    grid-row: 2;
+    grid-column: 2/3;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 250px 250px;
+    justify-items: center;
+    justify-self: center;
+    gap: 20px;
+}
+
+.inicial .Hopper{ 
+    display: flex; 
+    width: 180px;
+ }
+.inicial .Nancy{ 
+    display: flex;
+    width: 160px;
+}
+.inicial .Mike{ 
+    display: flex; 
+    width: 180px; 
+}
+.inicial .Max{ 
+    display: flex; 
+    width: 210px; 
+}
+.inicial .button__Inicio{
+    display: flex;
+    background-color: red;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    top: 600px;
+    position: absolute;
+    font: 2em sans-serif;
+}
+
+/* --------------------- CAPITULO 1 --------------------- */
+body .cap1{
+   background-color: black;
+    position: relative;
+    height: 100%;
+}
+
+.cap1 .header__top{
+   display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: red;
+}
+.cap1 .headerTop{
+    color:black;
+    justify-items: center;
+    font: 2em sans-serif;
+    width: 70px;
+    background-color: transparent;
+}
+
+.cap1 .header__logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cap1 .header__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 90px;
+    background-color: transparent;
+}
+.cap1 .contenedor{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 600px 600px;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+    background-color: black;
+    height: 1250px;
+}
+.cap1 h1{
+    display: grid;
+    justify-self: center;
+}
+.cap1 .box__escena1{
+    display: grid;
+    border: solid;
+    grid-template-rows: 20% 80%;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap1 .mapa--button{
+    display:grid; 
+    grid-row: 2;
+    background-color:yellow; 
+    width:30px; 
+    height:30px; 
+    position:absolute; 
+    align-content: center;
+    justify-content: center;
+    justify-self: left;
+}
+
+.cap1 .bag--button{
+    display:grid; 
+    grid-row: 2;
+    background-color:chocolate;
+    align-content: center; 
+    justify-content: center;
+    width:30px; 
+    height:30px; 
+    position:absolute; 
+    justify-self: right;
+}
+.cap1 .mapa{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+.cap1 .manga{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap1 .brujula{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap1 .will{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap1 .bocadillo__primero{ 
+    grid-row:1; 
+    display:grid; 
+}
+.cap1 .entrada{ 
+    display:grid; 
+    grid-row:2; 
+    width:100%; 
+    height:100%; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap1 p{
+    display: grid;
+    background-color: rgba(238, 238, 54, 0.553);
+    width: 100%;
+    height: 100%;
+    font: 20px sans-serif;
+    justify-self: center;
+    padding: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.cap1 .box__escena2{
+    display: grid;
+    border: solid;
+    grid-template-rows:20% 80%;
+    position: relative;
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap1 .box__escena3{
+    display:grid;
+    border: solid;
+    grid-column:1/3;
+    grid-row:2/3;
+    grid-template-rows:20% 80%;
+    position: relative;
+   overflow: hidden;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.cap1 .dropdown{
+    display: grid;
+
+}
+
+.cap1 .brujula{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap1 .will{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap1 .manga--button{ 
+    display: grid; 
+    width:50px; 
+    height:50px; 
+    background-color: white;
+    margin-top: 100px;  
+    grid-row: 2;
+    position: absolute; 
+    font: 5em sans-serif;
+}
+
+.cap1 .dropdown-menu{
+    background-color: white;
+}
+
+.cap1 .manga1{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}
+.cap1 .Avance{
+    display: grid;
+    grid-row: 2;
+    width: 1215px;
+    height: 100%;
+}
+.cap1 .manga{ 
+    display:grid; 
+    width:100%; 
+    height:480px; 
+    position: absolute;
+    grid-row: 2;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap1 .dropdown-item{ 
+    display:flex; 
+    background-color: white;
+    font: 1.5em sans-serif;
+}
+.cap1 .fondo{
+    display: grid;
+  position: absolute;
+    width: 1215px;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap1 .encima, .cap1 .encima1{
+  position:absolute;
+  top:50%;
+  display:grid;
+  width:25px;
+  height:25px;
+  border-radius:20px;
+  opacity:0;
+  object-fit:cover;
+}
+.cap1 .encima{ 
+    left:30px; 
+}
+.cap1 .encima1{ 
+    left:500px; 
+}
+.cap1 .encima:hover, .cap1 .encima1:hover{ 
+    opacity:0.5; 
+}
+.cap1 .card__texto{ 
+    display:grid; 
+    grid-column:1/4; 
+}
+.cap1 a{ 
+    display:flex; 
+    justify-self:center; 
+}
+
+/* --------------------- CAPITULO 2A --------------------- */
+body .cap2{
+   background-color: black;
+    position: relative;
+    height: 100%;
+}
+
+.cap2 .header__top{
+   display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: red;
+}
+.cap2 .headerTop{
+    color:black;
+    justify-content: center;
+    font: 2em sans-serif;
+    width: 70px;
+    background-color: transparent;
+}
+
+.cap2 .header__logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cap2 .header__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+}
+.cap2 .contenedor{
+    display:grid;
+    grid-template-columns:400px 400px;
+    grid-template-rows:350px 350px;
+    border:solid;
+    gap:10px;
+    position:relative;
+    justify-content:center;
+    background-color:black;
+    height:955px;
+}
+.cap2 h1{ 
+    display:flex; 
+    justify-content:center; 
+}
+.cap2 p{
+    display:grid;
+    background-color: rgba(238,238,54,0.553);
+    width:100%;
+    height:100%;
+    padding: 10px;
+    justify-self: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.cap2 .card__presentacion{ 
+    display:grid; 
+    border:solid; 
+    grid-template-rows:25% 75%; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.cap2 .mapa--button{
+    display:grid; 
+    grid-row: 2;
+    background-color:yellow; 
+    justify-content: center;
+    align-content: center;
+    width:30px; 
+    height:30px; 
+    position:absolute; 
+}
+.cap2 .mapa{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+.cap2 .linterna--button{
+    display:grid; 
+    grid-row: 2;
+    background-color:white; 
+    justify-content: center;
+    width:20px; 
+    height:20px; 
+    margin-top: 200px;
+    position:absolute; 
+    justify-self: center;
+    font: 2em sans-serif;
+}
+.cap2 .linterna{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}
+
+.cap2 .manga{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}
+
+.cap2 .bag--button{
+    display:grid; 
+    grid-row: 2;
+    background-color:chocolate;
+    align-content: center; 
+    width:30px; 
+    height:30px; 
+    position:absolute; 
+    justify-self: right;
+}
+.cap2 .brujula{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap2 .will{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+
+.cap2 .Entrada__bosque{ 
+    display:grid; 
+    height:100%; 
+    width:100%; 
+}
+.cap2 .Texto{ 
+    display:grid; 
+    grid-row:1; 
+}
+.cap2 .card__Interior{ 
+    display:grid; 
+    border:solid; 
+    grid-template-rows:25% 75%; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap2 .Encuentro{ 
+    display:grid; 
+    grid-row:1; 
+}
+.cap2 .Encima{ 
+    display:grid; 
+    justify-self:center; 
+    justify-items:center; 
+    justify-content:center; 
+    grid-row:2; 
+}
+.cap2 .Dustin_bosque{ 
+    display:grid; 
+    width:100%; 
+    height:100%; 
+    grid-row:2; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap2 .comentario1, .cap2 .comentario2{
+    display:flex; 
+    background-color:transparent; 
+    width:100px; 
+    height:70px; 
+    position:absolute; 
+    justify-self:center; 
+    margin-top:250px;
+}
+
+.cap2 .comentario1--button{
+    display: flex;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    opacity: 0.1;
+}
+.cap2 .comentario2--button{
+     display: flex;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    opacity: 0.1;
+}
+.cap2 .comentario1--button:hover{
+    opacity: 0.9;
+}
+.cap2 .card__Busqueda{ 
+    display:grid; 
+    border:solid; 
+    grid-template-rows:25% 75%;
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap2 .arañazo--button{
+     display:grid; 
+    grid-row: 2;
+    background-color:rgba(255, 255, 255, 0.305); 
+    width:50px; 
+    height:50px; 
+    margin-top: 50px;
+    position:absolute; 
+    justify-self: right;
+    border-radius: 20px;
+}
+
+.cap2 .Upside_Down{ 
+    display:grid; 
+    border:solid; 
+    grid-template-rows: 25% 75%;
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap2 .Dustin__bosque2{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.cap2 .Card__pueblo{ 
+    display:grid; 
+    width:100%; 
+    height:100%; 
+    object-fit:cover; 
+    grid-column:1/3; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap2 .Eleccion{ 
+    display:grid; 
+    grid-template-columns:1fr 1fr; 
+    grid-template-rows:1fr; 
+    position:relative; 
+}
+.cap2 .Separados{ 
+    display:grid; 
+    position:absolute; 
+    grid-column:1/2; 
+    justify-self:center; 
+}
+.cap2 .Juntos{ 
+    display:grid; 
+    position:absolute; 
+    grid-column:2/3; 
+    justify-self:center; 
+}
+.cap2 .button1, .cap2 .button2{
+    display:grid; 
+    width:10px; 
+    height:10px; 
+    position:absolute; 
+    grid-column:1;
+    background-color: white;
+}
+.cap2 .izquierda, .cap2 .Frente{
+    display:grid; 
+    width:75px; 
+    height:75px; 
+    position:absolute;
+    background-color: transparent; 
+    top:50px; 
+    opacity:0;
+}
+.cap2 .izquierda:hover, .cap2 .Frente:hover{ 
+    opacity:0.8; 
+}
+
+/* --------------------- CAPITULO 2B --------------------- */
+body .cap2b{
+   background-color: black;
+    position: relative;
+    height: 100%;
+}
+
+.cap2b .header__top{
+   display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: red;
+}
+.cap2b .headerTop{
+    color:black;
+    justify-items: center;
+    font: 2em sans-serif;
+    background-color: transparent;
+    width: 70px;
+}
+
+.cap2b .header__logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cap2b .header__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+}
+.cap2b .contenedor{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:450px 450px;
+    border:solid;
+    justify-content:center;
+    gap: 10px;
+    position:relative;
+    background-color:black;
+    height:950px;
+}
+.cap2b .box__lateral{
+    display:grid;
+    border:solid;
+    grid-template-rows:25% 80%;
+    margin:10px;
+    position:relative;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap2b p{ 
+    display:grid; 
+    background-color:yellow; 
+    grid-row:1; 
+    height:100%; 
+    padding: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.cap2b .bosque_lateral{ 
+    display:grid; 
+    grid-row:2; 
+    object-fit:cover; 
+    position:absolute; 
+    width:100%; 
+    height:100%; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.cap2b .mapa--button{
+    display:grid; 
+    grid-row: 2;
+    background-color:yellow; 
+    width:30px; 
+    height:30px; 
+    position:absolute; 
+    align-content: center;
+    justify-content: center;
+}
+
+.cap2b .bag--button{
+display:grid; 
+    grid-row: 2;
+    background-color:chocolate;
+    align-content: center; 
+    justify-content: center;
+    width:30px; 
+    height:30px; 
+    position:absolute; 
+    justify-self: right;
+}
+.cap2b .mapa{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+
+.cap2b .manga{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap2b .linterna{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+}
+.cap2b .brujula{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap2b .will{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.cap2b .box__ciudad{ 
+    display:grid; 
+    grid-template-rows:25% 75%; 
+    border:solid; 
+    grid-column:2; 
+    position:relative; 
+    margin:10px; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap2b .ciudad{ 
+    display:grid; 
+    position:absolute; 
+    grid-row:2; 
+    width:100%; 
+    height:100%; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap2b .box__exploracion{ 
+    border:solid; 
+    display:grid; 
+    grid-template-rows:25% 75%; 
+    margin:10px; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap2b .fabrica{ 
+    display:grid; 
+    grid-row:2; 
+    width:100%; 
+    height:100%; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap2b .comentario1{ 
+    display:flex; 
+    background-color:transparent; 
+    width:100px; 
+    height:70px; 
+    margin-top:200px; 
+    margin-left:100px; 
+    position:absolute; 
+}
+.cap2b .comentario1--button{
+    display: flex;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    opacity: 0.1;
+}
+.cap2b .comentario1--button:hover{
+    opacity: 0.9;
+}
+.cap2b .box__charla{ 
+    display:grid; 
+    border:solid; 
+    position:relative; 
+    margin:10px; 
+    grid-template-rows:25% 75%; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap2b .intercambio{ 
+    display:grid; 
+    grid-row:2; 
+    width:100%; 
+    height:100%; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap2b .charla{ 
+    display:flex; 
+    background-color:transparent; 
+    justify-self:center; 
+    width:70px; 
+    height:70px; 
+    position:absolute; 
+    margin-top:300px; 
+}
+
+.cap2b .charla--button{
+      display: flex;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    opacity: 0.1;
+}
+.cap2b .charla--button:hover{
+    opacity: 0.9;
+}
+.cap2b .box__colegio{ 
+    display:grid; 
+    position:relative; 
+    border:solid; 
+    margin:10px; 
+    grid-template-rows:25% 75%; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap2b .escuela{ 
+    display:grid; 
+    grid-row:2; 
+    width:100%; 
+    height:100%; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap2b .llegada{ 
+    display:flex; 
+    position:absolute; 
+    width:50px;  
+    margin-top:300px; 
+    height:50px; 
+    background-color:transparent; 
+    justify-content: center;
+}
+
+.cap2b .llegada--button{
+      display: flex;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    opacity: 0.1;
+}
+.cap2b .llegada--button:hover{
+    opacity: 0.9;
+}
+.cap2b .box__eleccion{ 
+    display:grid; 
+    position:relative; 
+    border:solid; 
+    margin:10px; 
+    grid-template-rows:25% 75%; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap2b .eleccion{ 
+    display:grid; 
+    grid-template-columns:1fr 1fr; 
+    grid-template-rows:1fr; 
+    position:relative; 
+    justify-self:center; 
+    width:300px; 
+    height:150px; 
+    background-color: transparent;
+}
+.cap2b .pasillo{ 
+    display:grid; 
+    position:absolute; 
+    width:100%; 
+    grid-row:2; 
+    height:100%; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap2b .dividirse{ 
+    display:grid; 
+    position:absolute; 
+    grid-column:1/2; 
+    justify-self:center; 
+    width:150px; 
+    background-color: transparent;
+}
+.cap2b .izquierda-button{ 
+    display:grid; 
+    width:20px; 
+    height:20px; 
+    position:absolute; 
+    top:100px; 
+    grid-column:1; 
+    background-color: white;
+    font: 2em sans-serif;
+    justify-content: center;
+}
+.cap2b .izquierda{ 
+    display:grid; 
+    width:100px; 
+    height:100px; 
+    position:absolute; 
+    opacity:0; 
+    grid-column:1; 
+}
+.cap2b .izquierda:hover{ 
+    opacity:0.8; 
+}
+.cap2b .juntos{ 
+    display:grid; 
+    position:absolute; 
+    grid-column:2/3; 
+    justify-self:center; 
+}
+.cap2b .derecho-button{ 
+    display:grid; 
+    width:20px; 
+    height:20px; 
+    position:absolute; 
+    top:100px; 
+    grid-column:2/3; 
+    background-color: white;
+    font: 2em sans-serif;
+    justify-content: center;
+}
+.cap2b .derecha{ 
+    display:grid; 
+    width:100px; 
+    height:100px; 
+    grid-column:2/3; 
+    position:absolute; 
+    opacity:0; 
+}
+.cap2b .derecha:hover{ 
+    opacity:0.8; 
+}
+
+/* --------------------- CAPITULO 3A --------------------- */
+body .cap3a{
+   background-color: black;
+    position: relative;
+    height: 100%;
+}
+
+.cap3a .header__top{
+   display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: red;
+}
+.cap3a .headerTop{
+    color:black;
+    justify-items: center;
+    font: 2em sans-serif;
+    background-color: transparent;
+}
+
+.cap3a .header__logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cap3a .header__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+}
+.cap3a .contenedor{
+    display:grid;
+    grid-template-columns:450px 400px 400px;
+    grid-template-rows:350px 400px;
+    border:solid;
+    justify-content:center;
+    background-color:black;
+    height:1000px;
+    gap: 20px;
+}
+.cap3a h1{
+     display:flex; 
+     justify-content:center; 
+}
+.cap3a .box__llegada{ 
+    border:solid; 
+    display:grid; 
+    grid-template-rows:25% 75%; 
+    margin:10px; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3a p{ 
+    display:grid; 
+    background-color: rgba(229,229,0,0.281); 
+    grid-row:1; 
+    height:100%; 
+    color:whitesmoke; 
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 10px;
+}
+.cap3a .escuela{ 
+    width:100%; 
+    height:100%; 
+    display:grid; 
+    grid-row:2; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3a .encuentro{ 
+    display:flex; 
+    align-items:center; 
+    margin-left:150px; 
+    background-color:transparent; 
+    margin-top:250px; 
+    width:50px; 
+    height:50px; 
+    position:absolute; 
+}
+
+.cap3a .encuentro--button{
+      display: flex;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    opacity: 0.1;
+}
+.cap3a .encuentro--button:hover{
+    opacity: 0.9;
+}
+.cap3a .box__escuela{ 
+    display:grid; 
+    border:solid; 
+    grid-template-rows:25% 75%; 
+    justify-items:center; 
+    margin:10px; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3a .pasillo{ 
+    display:grid; 
+    position:relative; 
+    width:100%; 
+    height:100%; 
+    grid-row:2; 
+    object-fit:cover; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3a .flecha{ 
+    display:grid; 
+    opacity:0; 
+    width:50px; 
+    height:50px; 
+    grid-row:2; 
+    position:absolute; 
+    top:100px; 
+    background-color: transparent;
+}
+.cap3a .flecha:hover{ 
+    opacity:0.9; 
+}
+.cap3a .box__aula{ 
+    display:grid; 
+    grid-template-rows:20% 80%; 
+    border:solid; 
+    margin:10px; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3a .fondo__aula{ 
+    display:grid; 
+    grid-row:2/3; 
+    width:100%; 
+    height:100%; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3a .linterna{
+    display: grid;
+    grid-row: 2;
+    position: absolute;
+    background-color: transparent;
+    justify-self: right;
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+}
+
+.cap3a .mapa--button{
+    display:grid; 
+    grid-row: 2;
+    background-color:yellow; 
+    width:30px; 
+    height:30px; 
+    position:absolute; 
+    align-content: center;
+    justify-content: center;
+    justify-self: left;
+}
+
+.cap3a .bag--button{
+display:grid; 
+    grid-row: 2;
+    background-color:chocolate;
+    align-content: center; 
+    justify-content: center;
+    width:30px; 
+    height:30px; 
+    position:absolute; 
+    justify-self: right;
+}
+.cap3a .mapa{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+
+.cap3a .manga{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap3a .brujula{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap3a .will{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap3a .linterna1{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}
+
+.cap3a .nota__aula{ 
+    display:grid; 
+    height:100%; 
+}
+.cap3a .button{ 
+    display:grid; 
+    justify-self:center; 
+    width:10px; 
+    height:10px; 
+    position:absolute; 
+    top:188px; 
+    background-color: white;
+}
+
+.cap3a .nota{ 
+    border:solid; 
+    background-color:blanchedalmond; 
+}
+.cap3a .llave{
+    display: flex;
+    width: 100px;
+    background-color: transparent;
+    height: 100px;
+}
+.cap3a .fuera{ 
+    display:grid; 
+    grid-template-rows:25% 75%; 
+    border:solid; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3a .atrapados{ 
+    display:grid; 
+    width:100%; 
+    height:100%; 
+    position: absolute;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3a .contexto{ 
+    display:flex; 
+    height:100%; 
+}
+.cap3a .box__persecucion{ 
+    display:grid; 
+    border:solid; 
+    grid-column:2/4; 
+    grid-row:2/3; 
+    object-fit:cover; 
+    margin:10px; 
+    grid-template-rows:100%; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3a .calle{ 
+    display:grid; 
+    height:100%; 
+    width:100%;
+    position: relative; 
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3a .furgo{ 
+    display:grid; 
+    position:absolute; 
+    width:130px;
+    margin-top: 200px;
+    height: 100px;
+    opacity:0; 
+    background-color: transparent;
+}
+.cap3a .furgo:hover{ 
+    opacity:1; 
+}
+.cap3a .furgo2{ 
+    display:grid; 
+    position: absolute;
+    width:130px; 
+    height: 100px;
+    margin-top: 250px; 
+    margin-left:200px; 
+    opacity:0; 
+    background-color: transparent;
+}
+.cap3a .furgo2:hover{ 
+    opacity:1; 
+}
+.cap3a .correr2{ 
+    display:flex; 
+    position:absolute; 
+    justify-self:right; 
+    opacity:0;
+    background-color: transparent; 
+}
+.cap3a .duo{ 
+    display:flex; 
+    width:150px; 
+    height:150px; 
+    margin-top:250px; 
+    background-color: transparent;
+}
+.cap3a .correr2:hover{ 
+    opacity:1; 
+}
+.cap3a .correr3{ 
+    display:flex; 
+    position:absolute; 
+    justify-self:center; 
+    opacity:0; 
+    background-color: transparent;
+}
+.cap3a .correr3:hover{ 
+    opacity:1; 
+}
+.cap3a .duo2{ 
+    display:flex; 
+    width:150px; 
+    height:150px; 
+    margin-top:200px; 
+    background-color: transparent;
+}
+.cap3a .siguiente{ 
+    display:flex; 
+    position:absolute; 
+    justify-self:right; 
+    width:50px; 
+    height:50px; 
+    top:40px; 
+    opacity:0; 
+}
+.cap3a .siguiente:hover{ 
+    opacity:0.8; 
+}
+
+/* --------------------- CAPITULO 3B --------------------- */
+body .cap3b{
+   background-color: black;
+    height: 100%;
+}
+
+.cap3b .header__top{
+   display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+.cap3b .headerTop3{
+    color:black;
+    justify-items: center;
+    font: 2em sans-serif;
+    background-color: transparent;
+    margin-left: 65px;
+}
+
+.cap3b .header__logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cap3b .header__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+}
+.cap3b .contenedor{
+    display:grid;
+    grid-template-columns:400px 400px 400px;
+    grid-template-rows:400px 400px;
+    border:solid;
+    justify-content:center;
+    background-color: rgb(0, 0, 0);
+    height:1000px;
+    position: relative;
+}
+.cap3b h1{ 
+    display:flex; 
+    justify-content:center; 
+}
+.cap3b .box__busqueda{ 
+    display:grid; 
+    border:solid; 
+    grid-template-rows:25% 75%; 
+    position:relative; 
+    margin:10px; 
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3b p{ 
+    display:grid; 
+    background-color: color-mix(in srgb, rgba(255,255,0,0.348) 50%, red 40%); 
+    position:absolute; 
+    grid-row: 1;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 25%;
+    padding: 10px;
+}
+.cap3b .card__clase{ 
+    display:grid; 
+    grid-row:2/3; 
+    position:absolute; 
+    width:100%; 
+    height:100%; 
+    object-fit:cover; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.cap3b .mapa--button{
+    display:grid; 
+    grid-row: 2;
+    background-color:yellow; 
+    width:30px; 
+    height:30px; 
+    position:absolute; 
+    align-content: center;
+    justify-content: center;
+    justify-self: left;
+}
+
+.cap3b .bag--button{
+display:grid; 
+    grid-row: 2;
+    background-color:chocolate;
+    align-content: center; 
+    justify-content: center;
+    width:30px; 
+    height:30px; 
+    position:absolute; 
+    justify-self: right;
+}
+.cap3b .mapa{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+.cap3b .manga{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap3b .brujula{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap3b .will{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap3b .linterna1{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}
+.cap3b .box__mesa{ 
+    display:grid; 
+    grid-template-rows:25% 75%; 
+    border:solid; 
+    position:relative; 
+    margin:10px; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3b .card__mesa{ 
+    display:grid; 
+    grid-row:2/3; 
+    position:absolute; 
+    width:100%; 
+    height:100%; 
+    object-fit:cover; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3b .button{ 
+    display:grid; 
+    justify-self:center; 
+    width:10px; 
+    height:10px; 
+    position:absolute; 
+    grid-row:2/3; 
+    top:20px; 
+    background-color: white;
+}
+.cap3b .nota{ 
+    border:solid; 
+    background-color:blanchedalmond; 
+}
+.cap3b .llave{
+    display: flex;
+    width: 100px;
+    background-color: transparent;
+    height: 100px;
+}
+
+.cap3b .box__pasillo{ 
+    display:grid; 
+    grid-template-rows:25% 75%; 
+    border:solid; 
+    position:relative; 
+    object-fit:cover;
+    margin:10px; 
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.cap3b .card__pasillo{ 
+    display:grid; 
+    grid-row:2;  
+    width:100%; 
+    height:100%; 
+    grid-template-columns:50% 50%; 
+}
+.cap3b .pasillo{ 
+    display:grid; 
+    grid-row:2/3; 
+    position:absolute; 
+    width:100%; 
+    height:100%;  
+}
+.cap3b .solo{ 
+    display:grid; 
+    position:absolute; 
+    width:50px; 
+    height:50px; 
+}
+.cap3b .EnGrupo{ 
+    display:grid; 
+    position:absolute; 
+    width:50px; 
+    height:50px; 
+    grid-column:2/3; 
+    justify-self:right;
+}
+
+/* --------------------- CAPITULO 3BA --------------------- */
+body .cap3ba{
+   background-color: black;
+    position: relative;
+    height: 100%;
+}
+
+.cap3ba .header__top{
+   display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: red;
+}
+.cap3ba .headerTop{
+    color:black;
+    align-items: center;
+    font: 2em sans-serif;
+    background-color: transparent;
+    width: 70px;
+}
+
+.cap3ba .header__logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cap3ba .header__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+}
+.cap3ba .contenedor{
+    display:grid;
+    grid-template-columns:400px 600px 400px;
+    grid-template-rows:400px 400px;
+    border:solid;
+    background-color:black;
+    height:950px;
+}
+.cap3ba .card__alcantarilla{ 
+    display:grid; 
+    border:solid; 
+    grid-template-rows:10% 90%; 
+    grid-column:1/4; 
+    position:relative; 
+    margin:10px; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3ba p{ 
+    display:grid; 
+    grid-row: 1;
+    background-color: color-mix(in srgb, red 65%, yellow 50%); 
+    justify-content:center; 
+    width:100%; 
+    height:100%; 
+    color:darkred; 
+    padding: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.cap3ba .alcantarilla{ 
+    display:grid; 
+    position:absolute; 
+    grid-row:2; 
+    width:100%; 
+    height:100%; 
+    object-fit:cover; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3ba .mapa1--button{
+    display:grid; 
+    grid-row: 2;
+    background-color:yellow; 
+    width:50px; 
+    height:50px; 
+    position:absolute; 
+    align-content: center;
+    justify-content: center;
+    justify-self: left;
+}
+
+.cap3ba .bag1--button{
+display:grid; 
+    grid-row: 2;
+    background-color:chocolate;
+    align-content: center; 
+    justify-content: center;
+    width:50px; 
+    height:50px; 
+    position:absolute; 
+    justify-self: right;
+}
+.cap3ba .mapa--button{
+    display:grid; 
+    grid-row: 2;
+    background-color:yellow; 
+    width:30px; 
+    height:30px; 
+    position:absolute; 
+    align-content: center;
+    justify-content: center;
+    justify-self: left;
+}
+
+.cap3ba .bag--button{
+display:grid; 
+    grid-row: 2;
+    background-color:chocolate;
+    align-content: center; 
+    justify-content: center;
+    width:30px; 
+    height:30px; 
+    position:absolute; 
+    justify-self: right;
+}
+.cap3ba .mapa{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+.cap3ba .manga{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap3ba .brujula{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap3ba .will{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap3ba .llave{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap3ba .llave__usada{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color:grey;
+}
+.cap3ba .linterna1{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}
+.cap3ba .box__mounstruo{ 
+    display:grid; 
+    position:relative; 
+    border:solid; 
+    margin: 20px;
+    grid-template-rows:25% 75%; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3ba .card__mounstruo{ 
+    display:grid; 
+    grid-row:2; 
+    position:relative; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3ba .tunel{ 
+    display:flex; 
+    width:100%; 
+    height:100%; 
+    position:absolute; 
+}
+.cap3ba .ahorcado{ 
+    display:grid; 
+    position:relative; 
+    grid-template-rows:25% 75%; 
+    border:solid; 
+    margin: 20px;
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3ba .dropdown-item{
+    background-color: grey;
+}
+
+.cap3ba .cerradura{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+.cap3ba .card__porton{ 
+    display:grid; 
+    grid-row:2; 
+    position:relative; 
+    grid-template-columns:1fr 300px 1fr; 
+}
+.cap3ba .paso{ 
+    display:grid; 
+    position:absolute; 
+    width:100%; 
+    height:100%; 
+    grid-column:1/4; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3ba .porton{ 
+    display:grid; 
+    position:absolute; 
+    grid-column:2/3; 
+    width:100%; 
+    height:100%; 
+    object-fit:cover; 
+    border-radius:200%; 
+    background-color: transparent;
+}
+.cap3ba .button{ 
+    display:grid; 
+    width:25px; 
+    height:25px; 
+    position:absolute; 
+    top:100px; 
+    background-color: white;
+}
+
+/* --------------------- CAPITULO 3BB --------------------- */
+body .cap3bb{
+   background-color: black;
+    position: relative;
+    height: 100%;
+}
+
+.cap3bb .header__top{
+   display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: red;
+}
+.cap3bb .headerTop{
+    color:black;
+    align-items: center;
+    margin-left: 70px;
+    width: 87px;
+    font: 2em sans-serif;
+    background-color: transparent;
+}
+
+.cap3bb .header__logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cap3bb .header__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+}
+.cap3bb .contenedor{
+    display:grid;
+    grid-template-columns:300px 300px 600px;
+    grid-template-rows:300px 500px;
+    border:solid;
+    background-color:black;
+    height:1000px;
+    gap: 20px;
+}
+.cap3bb p{ 
+    display:grid; 
+    position:absolute; 
+    width:100%; 
+    height:25%; 
+    grid-row:1; 
+    background-color: color-mix(in srgb, red 75%, yellow 50%); 
+    justify-content:center; 
+    padding: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.cap3bb .card__alcantarilla{ 
+    display:grid; 
+    grid-template-rows:25% 75%; 
+    grid-column:1/3; 
+    margin:20px; 
+    position:relative; 
+    border:solid; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3bb .mapa--button{
+    display:grid; 
+    grid-row: 2;
+    background-color:yellow; 
+    width:30px; 
+    height:30px; 
+    position:absolute; 
+    align-content: center;
+    justify-content: center;
+    justify-self: left;
+}
+
+.cap3bb .bag--button{
+display:grid; 
+    grid-row: 2;
+    background-color:chocolate;
+    align-content: center; 
+    justify-content: center;
+    width:30px; 
+    height:30px; 
+    position:absolute; 
+    justify-self: right;
+}
+.cap3bb .mapa{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+.cap3bb .manga{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap3bb .brujula{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap3bb .will{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap3bb .linterna{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}
+.cap3bb .llave{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap3bb .llave__usada{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color:grey;
+}
+.cap3bb .alcantarilla{ 
+    display:grid; 
+    position:relative; 
+    grid-row:2; 
+    width:100%; 
+    height:100%; 
+    object-fit:cover; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3bb .duo{ 
+    display:grid; 
+    grid-row:2; 
+    position:absolute; 
+    margin-top:80px; 
+    width:150px; 
+    height:150px; 
+    justify-self:center; 
+    background-color: transparent;
+}
+.cap3bb .box2{ 
+    display:grid; 
+    grid-template-rows:25% 75%; 
+    grid-column:1/3; 
+    grid-row:2; 
+    margin:20px; 
+    border:solid; 
+    position:relative; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3bb .tunel{ 
+    display:grid; 
+    position:absolute; 
+    grid-row:2; 
+    width:100%; 
+    height:100%; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3bb .box3{ 
+    display:grid; 
+    grid-template-rows:25% 75%; 
+    grid-row:1/3; 
+    grid-column:3/4; 
+    border:solid; 
+    position:relative; 
+    margin:10px; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap3bb .box__3{ 
+    display:grid; 
+    position:relative; 
+    grid-row:2; 
+}
+
+.cap3bb .paso{
+    display: grid;
+    position: absolute;
+    grid-row: 2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.cap3bb .porton{ 
+    display:grid; 
+    position:absolute; 
+    grid-row:2; 
+    width:100%; 
+    height:100%; 
+    object-fit:cover; 
+    border-radius:100%; 
+    background-color: transparent;
+}
+
+.cap3bb .dropdown-item{
+    background-color: grey;
+}
+
+.cap3bb .cerradura{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+.cap3bb .button1{ 
+    display:grid; 
+    position:absolute; 
+    margin-top:200px; 
+    width:50px; 
+    height:50px; 
+    background-color: white;
+}
+.cap3bb .button2{ 
+    display:grid; 
+    width:50px; 
+    height:50px; 
+    position:absolute; 
+    justify-self:center; 
+    margin-top:275px; 
+    border-radius:30px; 
+    opacity:0; 
+}
+.cap3bb .button2:hover{ 
+    opacity:0.8; 
+}
+
+/* --------------------- CAPITULO 4 --------------------- */
+body .cap4{
+   background-color: black;
+    position: relative;
+    height: 100%;
+}
+
+.cap4 .header__top{
+   display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: red;
+}
+.cap4 .headerTop{
+    color:black;
+    align-self: center;
+    font: 2em sans-serif;
+    background-color: transparent;
+    width: 70px;
+}
+
+.cap4 .header__logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cap4 .header__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+}
+.cap4 .contenedor{
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:900px 300px;
+    border:solid;
+    background-color:black;
+    height:100%;
+    gap: 30px;
+}
+.cap4 .box1{ 
+    display:grid; 
+    grid-template-rows:15% 85%; 
+    position:relative; 
+    border:solid; 
+    margin:10px; 
+    grid-column:1; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap4 p{ 
+    display:grid; 
+    position:relative; 
+    width:100%; 
+    height:100%; 
+    grid-row:1; 
+    background-color: color-mix(in srgb, red 80%, yellow 50%); 
+    justify-content:center; 
+    font:1.5em sans-serif; 
+    padding: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.cap4 .encuentro{ 
+    display:grid; 
+    grid-row:2; 
+    position:absolute; 
+    width:100%; 
+    height:100%; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    object-fit: cover;
+}
+.cap4 .opciones{ 
+    display:grid; 
+    grid-template-columns:1fr 1fr 1fr;
+    position: relative; 
+    gap: 20px;
+}
+.cap4 .mapa--button{
+    display:grid; 
+    grid-row: 2;
+    background-color:yellow; 
+    justify-content: center;
+    align-content: center;
+    width:50px; 
+    height:50px; 
+    position:absolute; 
+    font: 2em sans-serif;
+}
+.cap4 .mapas{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+}
+.cap4 .bag--button{
+display:grid; 
+    grid-row: 2;
+    background-color:chocolate;
+    align-content: center; 
+    justify-content: center;
+    width:50px; 
+    height:50px; 
+    position:absolute; 
+    justify-self: right;
+    font: 2em sans-serif;
+}
+.cap4 .mapa{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+.cap4 .manga{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap4 .brujula{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap4 .will{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.cap4 .linterna{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}
+.cap4 .box2__lucha{ 
+    display:grid; 
+    grid-column:1/2; 
+    grid-template-rows:20% 80%; 
+    position:relative; 
+    border:solid; 
+    background-color:white; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cap4 .Lucha{ 
+    display:grid; 
+    position:absolute; 
+    width:150px; 
+    height:150px; 
+    justify-self:center; 
+    grid-row:2; 
+    border:0; 
+    background:0; 
+}
+.cap4 .box3__defender{ 
+    display:grid; 
+    grid-column:2/3; 
+    grid-template-rows:20% 80%; 
+    position:relative; 
+    border:solid; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color:white; 
+}
+.cap4 .Defiende{ 
+    display:grid; 
+    position:absolute; 
+    width:150px; 
+    height:150px; 
+    justify-self:center; 
+    grid-row:2; 
+    border-radius:100%; 
+    background-color: transparent;
+}
+.cap4 .box4__huir{ 
+    display:grid; 
+    grid-template-rows:20% 80%; 
+    position:relative; 
+    border:solid; 
+    background-color:white;
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px; 
+}
+.cap4 .Huir{ 
+    display:grid; 
+    position:absolute; 
+    width:150px; 
+    height:150px; 
+    justify-self:center; 
+    grid-row:2; 
+    border-radius:50%; 
+    background-color: transparent;
+}
+
+/* --------------------- FINAL1 --------------------- */
+body .final1{
+   display: block;
+}
+
+.final1 .section{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 100%;
+}
+
+.final1 .contenedor{
+    display:grid;
+    grid-template-columns:1fr 1.5fr 1fr;
+    grid-template-rows:200px 500px 400px;
+    border:solid;
+    position:relative;
+}
+.final1 .card__arena{ 
+    display:grid; 
+    grid-column:1/4; 
+    grid-row:1/4; 
+    position:absolute; 
+    justify-self:center; 
+    width:100%; 
+    height:100%;
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px; 
+}
+.final1 .card__vida__jefe{ 
+    display:grid; 
+    position:absolute; 
+    justify-self:center; 
+    grid-column:1/4; 
+    background-color: transparent;
+}
+.final1 .card__mounstruo{ 
+    display:grid; 
+    position:absolute; 
+    height:500px; 
+    grid-row:2; 
+    justify-self:center; 
+    background-color: transparent;
+}
+.final1 .card__salud{ 
+    display:flex; 
+    position:absolute; 
+    justify-self:center; 
+    margin-top:650px; 
+    width:500px; 
+    background-color: transparent;
+}
+.final1 .card__ataque{ 
+    display:flex;
+    margin-top:850px; 
+    width:250px; 
+    margin-left: 300px;
+    position:absolute; 
+    background-color: transparent;
+}
+.final1 .card__cubrirte{ 
+    display:flex; 
+    position:absolute; 
+    justify-self:center; 
+    margin-top:850px; 
+    width:250px; 
+    background-color: transparent;
+}
+.final1 .mochila {
+    position: absolute; 
+    display: grid;
+    grid-column: 3;
+    grid-row: 3;
+    cursor: pointer;
+}
+.final1 .card__mochila{
+     display:flex; 
+    position:absolute;
+    margin-top: 100px; 
+    width:300px; 
+    justify-self: left;
+    background-color: transparent;
+}
+.menu {
+    display: none;
+    position: absolute;
+    top: 120px; 
+    left: 0;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+.final1 .text{
+    font: 2em sans-serif;
+}
+.final1 .mochila:hover .menu {
+    display: block;
+    
+}
+
+.submenu {
+    position: relative;
+    display: grid;
+}
+
+.submenu-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 110px;
+    background: white;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.submenu:hover .submenu-content {
+    display: block;
+}
+
+.menu img {
+    width: 100px;
+    margin: 5px 0;
+}
+
+.final1 .card__game__over{
+    font-size:100px;
+    justify-self:center;
+    color:red;
+    font-weight:bold;
+    letter-spacing:4px;
+    text-shadow:2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;   
+}
+.final1 .card__victoria{
+    font-size:100px;
+    color:greenyellow;
+    justify-self:center;
+    font-weight:bold;
+    letter-spacing:4px;
+    text-shadow:2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;   
+}
+
+/* --------------------- FINAL1.1 --------------------- */
+body .final1_1{
+    display: grid;
+    background-color: black;
+    position: relative;
+    width: 100%;
+}
+.final1_1 .contenedor{
+    display:grid;
+    position:relative;
+    justify-self:center;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr;
+    height:1000px;
+}
+.final1_1 .arena__combate{ 
+    display:grid; 
+    grid-column:1/7; 
+    width:100%; 
+    height:100%; 
+    padding:30px;
+    position: relative;
+}
+.final1_1 .arena{ 
+    display:grid; 
+    position:relative; 
+    object-fit:cover; 
+    width:100%; 
+    height:100%; 
+    grid-column:1/6; 
+    grid-row:1/4; 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.final1_1 .box0{ 
+    display:flex; 
+    flex-direction:column; 
+    grid-column:5; 
+    grid-row:2; 
+    position:relative; 
+    justify-self:center; 
+    background-color: transparent;
+}
+.final1_1 .mounstruo{ 
+    display:grid; 
+    width:250px; 
+    background-color: transparent;
+}
+.final1_1 .barras0{ 
+    display:flex; 
+    width:250px;  
+    background-color: transparent;
+}
+.final1_1 .box1{ 
+    display:flex; 
+    flex-direction:column; 
+    grid-column:2; 
+    grid-row:1; 
+    position:relative; 
+    justify-self:center; 
+    background-color: transparent;
+}
+.final1_1 .dustin{ 
+    display:grid; 
+    position:relative; 
+    width:100px; 
+    background-color: transparent;
+}
+.final1_1 .barras1{ 
+    display:flex; 
+    position:relative; 
+    width:100px; 
+    height:100px; 
+    background-color: transparent;
+}
+.final1_1 .box2{ 
+    display:flex; 
+    flex-direction:column; 
+    position:relative; 
+    justify-self:center; 
+    grid-column:2; 
+    grid-row:2; 
+    background-color: transparent;
+}
+.final1_1 .tu{ 
+    display:grid; 
+    position:relative; 
+    justify-self:center; 
+    height:100px; 
+    margin-top:100px; 
+    background-color: transparent;
+}
+.final1_1 .barras3{ 
+    display:flex; 
+    position:relative; 
+    width:100px; 
+    height:100px; 
+    background-color: transparent;
+}
+.final1_1 .box3{ 
+    display:flex; 
+    flex-direction:column; 
+    position:relative; 
+    justify-self:center; 
+    grid-column:2; 
+    grid-row:3; 
+    background-color: transparent;
+}
+.final1_1 .lucas{ 
+    display:grid; 
+    position:relative; 
+    justify-self:center; 
+    height:100px; 
+    background-color: transparent;
+}
+.final1_1 .barras2{ 
+    display:flex; 
+    position:relative; 
+    width:100px; 
+    height:100px; 
+    background-color: transparent;
+}
+.final1_1 .dropdown-itemG{
+    font-size:300px;
+    justify-self:center;
+    color:red;
+    font-weight:bold;
+    letter-spacing:4px;
+    text-shadow:2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; 
+    text-decoration: none;  
+}
+.final1_1 .Victoria{ 
+    display:flex; 
+    width:25px; 
+    height:25px; 
+    background-color: white;
+    position: absolute;
+    margin-left: 300px;
+    
+}
+.final1_1 .Game-over{ 
+    width:25px; 
+    height:25px; 
+    position:absolute; 
+    background-color: white;
+    justify-self: center;
+}
+.final1_1 .dropdown-itemV{
+    font-size:200px;
+    color:greenyellow;
+    justify-self:center;
+    font-weight:bold;
+    letter-spacing:4px;
+    text-shadow:2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;   
+    text-decoration: none;
+}
+
+/* --------------------- FINAL2 --------------------- */
+body .final2{
+    background-color: black;
+}
+.final2 .contenedor{
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:100px 850px;
+    border:solid;
+    position:relative;
+    background-color:black;
+}
+.final2 .card__contexto{ 
+    display:grid; 
+    position:absolute; 
+    width:100%; 
+    height:25%; 
+    background-color: color-mix(in srgb, red 80%, yellow 50%); 
+    justify-content:center; 
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.final2 .card__escena{ 
+    display:grid; 
+    grid-row:2; 
+    width:100%; 
+    height:100%; 
+    position:relative; 
+}
+.final2 .card__resultado-button{ 
+    display:grid; 
+    width:15px; 
+    height:15px; 
+    position:absolute; 
+    justify-self: center;
+    margin-top: 80px;
+}
+.final2 .card__fondo{ 
+    display:grid; 
+    position:absolute; 
+    justify-self:center; 
+    width:100%; 
+    height:100%; 
+}
+.final2 .card__tu{ 
+    display:grid; 
+    position:absolute; 
+    height:150px; 
+    grid-row:2; 
+    justify-self:center; 
+    background-color: transparent;
+}
+.final2 .card__mounstruo{ 
+    display:grid; 
+    position:absolute; 
+    height:500px; 
+    margin-top:200px; 
+    justify-self:center; 
+    background-color: transparent;
+}
+.final2 .dropdown-item{ 
+    font-size:300px; 
+    justify-self:center; 
+    background-color: transparent;
+    font-weight:bold; 
+    letter-spacing:4px; 
+    text-shadow:2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; 
+    text-decoration: none;
+    color: red;
+}
+/* --------------------- FINAL3 --------------------- */
+body .final3{ 
+    display:flex; 
+    background-color:black; 
+    width: 100%;
+    height: 100%;
+}
+.final3 .card__contenedor{ 
+    display:grid; 
+    grid-template-columns:600px 1fr; 
+    grid-template-rows:1fr; 
+    border:solid; 
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+    padding: 10px;
+}
+
+.final3 p{
+    display: grid;
+    background-color: color-mix(in srgb, yellow 50%, brown 50%); 
+     border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 10px;
+}
+.final3 .card__texto{ 
+    display:grid; 
+    grid-column:1; 
+    border:solid; 
+}
+.final3 .card__imagenes{ 
+    display:grid; 
+    grid-template-rows:300px 300px 300px; 
+    position:relative; 
+    
+}
+.final3 .card__box__lucas{ 
+    display:grid; 
+    position:relative; 
+    border:solid; 
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.final3 .card__cuarto{ 
+    display:grid; 
+    position:absolute; 
+    width:100%; 
+    height:100%; 
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.final3 .card__lucas{ 
+    display:grid; 
+    position:absolute; 
+    width:50px; 
+    height:50px; 
+    justify-self:center; 
+    margin-top:150px; 
+    background-color: transparent;
+}
+.final3 .card__box__dustin{ 
+    display:grid; 
+    position:relative; 
+    border:solid; 
+}
+.final3 .card__muro{ 
+    display:grid; 
+    position:absolute; 
+    width:100%; 
+    height:100%; 
+}
+.final3 .card__dustin{ 
+    display:grid; 
+    position:absolute; 
+    width:100px; 
+    height:100px; 
+    justify-self:center; 
+    margin-top:100px;
+    background-color: transparent; 
+}
+.final3 .card__tu{ 
+    display:grid; 
+    position:relative; 
+    border:solid; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.final3 .card__depresion{ 
+    display:grid; 
+    position:absolute; 
+    width:100%; 
+    height:100%; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.final3 .card__duff{ 
+    display:grid; 
+    position:absolute; 
+    width:50px; 
+    height:50px; 
+    justify-self:center; 
+    margin-top:200px; 
+    border-radius:25px; 
+    background-color: transparent;
+}
+.final3 .card__duff1{ 
+    display:grid; 
+    position:absolute; 
+    width:50px; 
+    height:50px; 
+    margin-top:150px; 
+    border-radius:25px; 
+    background-color: transparent;
+}
+.final3 .card__duff2{ 
+    display:grid; 
+    position:absolute; 
+    width:50px; 
+    height:50px; 
+    margin-top:200px; 
+    border-radius:25px; 
+    background-color: transparent;
+}
+.final3 .card__duff3{ 
+    display:grid; 
+    position:absolute; 
+    width:50px; 
+    height:50px; 
+    justify-self:right; 
+    margin-top:200px; 
+    border-radius:25px; 
+    background-color: transparent;
+}
+.final3 .card__duff4{ 
+    display:grid; 
+    position:absolute; 
+    width:50px; 
+    height:50px; 
+    justify-self:right; 
+    margin-top:150px; 
+    border-radius:25px; 
+    background-color: transparent;
+}
