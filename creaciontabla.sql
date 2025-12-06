@@ -1,16 +1,5 @@
 SET FOREIGN_KEY_CHECKS = 0;
 
--- borrar tablas si existen
-DROP TABLE IF EXISTS combate_objeto;
-DROP TABLE IF EXISTS decision;
-DROP TABLE IF EXISTS inventario_objeto;
-DROP TABLE IF EXISTS inventario;
-DROP TABLE IF EXISTS progresocapitulo;
-DROP TABLE IF EXISTS partida;
-DROP TABLE IF EXISTS personaje;
-DROP TABLE IF EXISTS objeto;
-DROP TABLE IF EXISTS capitulo;
-
 -- tabla capitulo
 CREATE TABLE capitulo (
   id_capitulo INT NOT NULL,
@@ -185,4 +174,5 @@ INSERT INTO progresocapitulo (id_progreso,id_partida,id_capitulo,completado,resu
 (101,2,7,1,'victoria'),
 (102,3,6,1,'derrota');
 
-SET FOREIGN_KEY_CHECKS = 1;
+SET FOREIGN_KEY_CHECKS = 1; 
+
