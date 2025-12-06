@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ST {
+public class LOCA {
 
 
     static Scanner sc = new Scanner(System.in);
